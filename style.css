@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    outline: 2px solid re;
+}
+
+body{
+    background-color: hsl(0, 35%, 90%);
+    
+}
+
+#card{
+    display: flex;
+    height: 50vh;
+    width: 500px;
+    margin: 25vh 0vh 25vh 69vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.direita{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 25px 0px 0px 25px;
+    text-align: left;
+    
+}
+
+#card .foto{
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.perfume{
+    margin-bottom: 13px;
+  font-size: 12px;
+  font-weight: lighter;
+    color: gray;
+}
+
+h1{
+    font-size: 34px;
+    margin: 0px 0px 12px 0px;
+    font-weight: bold;
+    text-align: left;
+    border-collapse: 1px;
+    word-spacing: 0px;
+    line-height: 30px;
+
+}
+
+h4{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: lighter;
+      color: gray;
+      text-align: left;
+}
+
+.input{
+    display: flex;
+}
+
+h5{
+    color: gray;
+    margin: 12px 0px 0px 15px;
+    font-size: 12px;
+    font-weight: initial;
+    text-decoration: line-through;
+}
+
+.preco{
+    font-size: 30px;
+    color: rgb(47, 89, 47);
+    margin-top: 5px;
+    
+}
+
+input{
+    background-color: rgb(67, 125, 67);
+    border-radius: 5px;
+    height: 35px;
+    width: 190px;
+    margin: 17px 0px 0px 0px;
+}
+
+input::placeholder{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+label{
+    margin: 0px 0px 0px 70px;
+}
